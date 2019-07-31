@@ -1,2 +1,3 @@
 # Service Discovery Server for ecs-microservice
-Simple Spring Cloud service registry. 
+
+Simple Spring Cloud service registry.
