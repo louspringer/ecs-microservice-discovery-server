@@ -1,2 +1,2 @@
-# ecs-microservice-discovery-server
-Service discovery server for ecs-microservice
+# Service Siscovery Server for ecs-microservice
+Simple Spring Cloud service registry. 
