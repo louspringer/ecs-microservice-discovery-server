@@ -4,8 +4,9 @@ phases:
   install:
     commands:
       - echo Entered the install phase...
-      - apt-get update -y
-      - apt install amazon-ecr-credential-helper
+      # - apt-get update -y
+      # - apt install amazon-ecr-credential-helper
+      - go get -u github.com/awslabs/amazon-ecr-credential-helper/ecr-login/cli/docker-credential-ecr-login
   build:
     commands:
       - echo Build started on `date`
