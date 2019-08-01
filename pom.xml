@@ -68,7 +68,7 @@
 				<version>0.9.10</version>
 				<configuration>
 					<to>
-						<image>louspringer/${project.artifactId}</image>
+						<image>335719367184.dkr.ecr.us-east-1.amazonaws.com/${project.artifactId}</image>
 					</to>
 				</configuration>
 			</plugin>
