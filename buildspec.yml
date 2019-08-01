@@ -11,5 +11,6 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
+      - sudo apt install amazon-ecr-credential-helper
       - $(aws ecr get-login --no-include-email --region us-east-1)
       - mvn compile jib:build
