@@ -4,15 +4,13 @@ phases:
   install:
     commands:
       - echo Entered the install phase...
-      # - apt-get update -y
-      # - apt install amazon-ecr-credential-helper
+      # docker-credential-ecr-login required for mvn compile jib:build
       - go get -u github.com/awslabs/amazon-ecr-credential-helper/ecr-login/cli/docker-credential-ecr-login
   build:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
       - mvn install
-      # - mvn compile jib:build
   post_build:
     commands:
       - echo Build completed on `date`
