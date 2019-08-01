@@ -69,6 +69,7 @@
 				<configuration>
 					<to>
 						<image>335719367184.dkr.ecr.us-east-1.amazonaws.com/${project.artifactId}</image>
+						<credHelper>ecr-login</credHelper>
 					</to>
 				</configuration>
 			</plugin>
